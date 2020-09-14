@@ -24,7 +24,7 @@ a1 = np.dot(5, 8)  # 如果只是两个数则是直接相乘
 a2 = np.array([2, 3, 5])
 a3 = np.array([3, 4, 6])
 a4 = np.dot(a2, a3)  # 如果是相同数量的一维数组，则是两两相乘取和数，非相同数量不能相乘
-
+print(a4)
 a5 = np.array([[1, 2], [4, 5]])
 a6 = np.array([[7, 8], [10, 11]])
 a7 = np.dot(a5, a6)  # 二维数组相乘，[[a,b],[c,d]] [[e,f],[g,h]]  结果[[ae+bg,af+bh],[ce+dg,cf+ch]]
